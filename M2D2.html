@@ -59,7 +59,23 @@
   font-family: 'Circular-Loom';
 
   src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Black-bf067ecb8aa777ceb6df7d72226febca.woff2') format('woff2');
-}</style><script style="display: none;">var tvt = tvt || {}; tvt.captureVariables = function(a){for(var b=
+}
+
+
+.jumbotron 
+{
+    margin-bottom: 0rem;
+}
+
+
+
+
+
+
+
+
+
+</style><script style="display: none;">var tvt = tvt || {}; tvt.captureVariables = function(a){for(var b=
 new Date,c={},d=Object.keys(a||{}),e=0,f;f=d[e];e++)if(a.hasOwnProperty(f)&&"undefined"!=typeof a[f])try{var g=[];c[f]=JSON.stringify(a[f],function(h,k){try{if("function"!==typeof k){if("object"===typeof k&&null!==k){if(k instanceof HTMLElement||k instanceof Node||-1!=g.indexOf(k))return;g.push(k)}return k}}catch(m){}})}catch(h){}a=document.createEvent("CustomEvent");a.initCustomEvent("TvtRetrievedVariablesEvent",!0,!0,{variables:c,date:b});window.dispatchEvent(a)};window.setTimeout(function() {tvt.captureVariables({'dataLayer.hide': (function(a){a=a.split(".");for(var b=window,c=0;c<a.length&&(b=b[a[c]],b);c++);return b})('dataLayer.hide'),'gaData': window['gaData'],'dataLayer': window['dataLayer']})}, 2000);</script></head>
 
 <body cz-shortcut-listen="true">
@@ -69,13 +85,13 @@ new Date,c={},d=Object.keys(a||{}),e=0,f;f=d[e];e++)if(a.hasOwnProperty(f)&&"und
           <div class="container">
             <div class="row">
               <div class="col-sm-8 col-md-7 py-4">
-                <h4 class="text-white">About</h4>
+                <h4 class="text-white">Dojacat</h4>
                 <p class="text-white">American singer and rapper Doja Cat has released three studio albums, one extended play (EP), 32 singles (including fourteen as a featured artist), 25 music videos and three promotional singles. According to Recording Industry Association of America, Doja Cat has sold 12.5 million certified albums & singles in the United States.</p>
               </div>
               <div class="col-sm-4 offset-md-1 py-4">
                 <h4 class="text-white">Contact</h4>
                 <ul class="list-unstyled">
-                  <li><a href="https://www.instagram.com/dojacat/" target="_blank" class="text-white">Instagram</a></li>
+                  <li><a href="#album-section" class="text-white">Albums</a></li>
                   <li><a href="https://www.youtube.com/watch?v=yxW5yuzVi8w&list=OLAK5uy_kUOXOjGn__fcwxN-W_1fV0Ubh1C12hYbs" target="_blank" class="text-white">Youtube</a></li>
                   <li><a href="https://open.spotify.com/album/4XLPYMERZZaBzkJg0mkdvO" target="_blank"class="text-white">Spotify</a></li>
                 </ul>
@@ -91,7 +107,7 @@ new Date,c={},d=Object.keys(a||{}),e=0,f;f=d[e];e++)if(a.hasOwnProperty(f)&&"und
           <div class="container d-flex justify-content-between">
             <a href="#" class="navbar-brand d-flex align-items-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24" focusable="false"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
-              <strong>Album: Planet Her(Deluxe)</strong>
+              <strong>ALBUMS</strong>
             </a>
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -100,20 +116,108 @@ new Date,c={},d=Object.keys(a||{}),e=0,f;f=d[e];e++)if(a.hasOwnProperty(f)&&"und
         </div>
       </header>
 
-      <main class="main-section">
+       <main class="main-section">
+     <!-- EXERCISE 3
+             Create a responsive section for your favourite albums.
+             In this section you should have:
+             - 4 albums per row when the screen is very large
+             - 3 albums per row when you are on a tablet (or a smaller viewport)
+             - 2 albums per row when you are on a small screen
+     -->
+     <section class="jumbotron text-center" >
+        <div class="container">
+          <h1>Dojacat</h1>
+          <img src="/Doja.png" style="width: 200px;"/><br>
+          <p class="lead text-muted">Amala Ratna Zandile Dlamini (born October 21, 1995), known professionally as Doja Cat, is an American rapper, singer, songwriter, and record producer. 
+              Born and raised in Los Angeles, she began making and releasing music on SoundCloud as a teenager. Her song "So High" caught the attention of Kemosabe and RCA Records, with which she signed a joint record deal at the age of 17, subsequently releasing her debut EP Purrr! in 2014.
+              Described by The Wall Street Journal as "a skilled technical rapper with a strong melodic sense and a bold visual presence", Doja Cat is known for creating music videos and songs that achieve popularity on social media applications such as TikTok. 
+              <br>She is also well-versed in the internet herself, and is famed for her absurdly humorous personality and online presence.
+            </p>
+          <p>
+            <a href="https://open.spotify.com/album/4XLPYMERZZaBzkJg0mkdvO" target="_blank" class="btn btn-danger my-2">Play on Spotify</a>
+            <a href="https://www.youtube.com/watch?v=yxW5yuzVi8w&list=OLAK5uy_kUOXOjGn__fcwxN-W_1fV0Ubh1C12hYbs" target="_blank" class="btn btn-secondary my-2">Open on Youtube</a>
+          </p>
+        </div>
+      </section>
+ 
+<!-- EXERCISE 3
+             Create a responsive section for your favourite albums.
+             In this section you should have:
+             - 4 albums per row when the screen is very large
+             - 3 albums per row when you are on a tablet (or a smaller viewport)
+             - 2 albums per row when you are on a small screen
+-->
 
+     <div id ="album-section" class="album py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="card sm-3 shadow-sm">
+           <img src="/PlanetHer.png">
 
-    
+            <div class="card-body">
+                <h1>Planet Her</h1>
+              <p class="card-text">Produced in 2021</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
 
-
-
-    <!-- EXERCISE 3
-            Create a responsive section for your favourite albums.
-            In this section you should have:
-            - 4 albums per row when the screen is very large
-            - 3 albums per row when you are on a tablet (or a smaller viewport)
-            - 2 albums per row when you are on a small screen
-        -->
+        <div class="col-sm-3">
+            <div class="card sm-3 shadow-sm">
+             <img src="HotPink.jpg">
+  
+              <div class="card-body">
+                  <h1>Hot Pink</h1>
+                <p class="card-text">Produced in 2019</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-sm-3">
+            <div class="card sm-3 shadow-sm">
+             <img src="Amala.jpg">
+  
+              <div class="card-body">
+                  <h1>Amala</h1>
+                <p class="card-text">Produced in 2018</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card sm-3 shadow-sm">
+             <img src="/Purrr.png">
+  
+              <div class="card-body">
+                  <h1>Purrr!</h1>
+                <p class="card-text">Produced in 2014</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+           
 
     <!-- EXERCISE 4
             Create a section for the album reviews.
