@@ -69,12 +69,6 @@
 
 
 
-
-
-
-
-
-
 </style><script style="display: none;">var tvt = tvt || {}; tvt.captureVariables = function(a){for(var b=
 new Date,c={},d=Object.keys(a||{}),e=0,f;f=d[e];e++)if(a.hasOwnProperty(f)&&"undefined"!=typeof a[f])try{var g=[];c[f]=JSON.stringify(a[f],function(h,k){try{if("function"!==typeof k){if("object"===typeof k&&null!==k){if(k instanceof HTMLElement||k instanceof Node||-1!=g.indexOf(k))return;g.push(k)}return k}}catch(m){}})}catch(h){}a=document.createEvent("CustomEvent");a.initCustomEvent("TvtRetrievedVariablesEvent",!0,!0,{variables:c,date:b});window.dispatchEvent(a)};window.setTimeout(function() {tvt.captureVariables({'dataLayer.hide': (function(a){a=a.split(".");for(var b=window,c=0;c<a.length&&(b=b[a[c]],b);c++);return b})('dataLayer.hide'),'gaData': window['gaData'],'dataLayer': window['dataLayer']})}, 2000);</script></head>
 
@@ -116,14 +110,7 @@ new Date,c={},d=Object.keys(a||{}),e=0,f;f=d[e];e++)if(a.hasOwnProperty(f)&&"und
         </div>
       </header>
 
-       <main class="main-section">
-     <!-- EXERCISE 3
-             Create a responsive section for your favourite albums.
-             In this section you should have:
-             - 4 albums per row when the screen is very large
-             - 3 albums per row when you are on a tablet (or a smaller viewport)
-             - 2 albums per row when you are on a small screen
-     -->
+     <main class="main-section">
      <section class="jumbotron text-center" >
         <div class="container">
           <h1>Dojacat</h1>
@@ -150,8 +137,8 @@ new Date,c={},d=Object.keys(a||{}),e=0,f;f=d[e];e++)if(a.hasOwnProperty(f)&&"und
 
      <div id ="album-section" class="album py-5 bg-light">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-3">
+      <div class="row ">
+        <div class="col-6 col-sm-4 col-md-3 ">
           <div class="card sm-3 shadow-sm">
            <img src="/PlanetHer.png">
 
@@ -168,7 +155,7 @@ new Date,c={},d=Object.keys(a||{}),e=0,f;f=d[e];e++)if(a.hasOwnProperty(f)&&"und
           </div>
         </div>
 
-        <div class="col-sm-3">
+        <div class="col-6 col-sm-4 col-md-3">
             <div class="card sm-3 shadow-sm">
              <img src="HotPink.jpg">
   
@@ -185,7 +172,7 @@ new Date,c={},d=Object.keys(a||{}),e=0,f;f=d[e];e++)if(a.hasOwnProperty(f)&&"und
             </div>
           </div>
         
-          <div class="col-sm-3">
+          <div class="col-6 col-sm-4 col-md-3">
             <div class="card sm-3 shadow-sm">
              <img src="Amala.jpg">
   
@@ -201,7 +188,7 @@ new Date,c={},d=Object.keys(a||{}),e=0,f;f=d[e];e++)if(a.hasOwnProperty(f)&&"und
               </div>
             </div>
           </div>
-          <div class="col-sm-3">
+          <div class="col-6 col-sm-4 col-md-3">
             <div class="card sm-3 shadow-sm">
              <img src="/Purrr.png">
   
